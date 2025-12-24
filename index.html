@@ -1,2 +1,166 @@
-<h1>CloudSchool GitHub Page</h1>
-<p>This domain is reserved for CloudSchool.</p>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CloudSchool | Learn Cloud, AI, Cybersecurity</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: system-ui, -apple-system, Segoe UI, Roboto, sans-serif;
+            background: #f7f9fc;
+            color: #1a1a1a;
+        }
+        header {
+            background: white;
+            padding: 20px 40px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            border-bottom: 1px solid #e5e5e5;
+            position: sticky;
+            top: 0;
+            z-index: 10;
+        }
+        header a {
+            text-decoration: none;
+            color: #1a1a1a;
+            margin-left: 20px;
+            font-weight: 500;
+        }
+        .hero {
+            padding: 120px 40px;
+            text-align: center;
+            background: linear-gradient(135deg, #4f46e5, #6366f1);
+            color: white;
+        }
+        .hero h1 {
+            font-size: 3rem;
+            margin-bottom: 20px;
+        }
+        .hero p {
+            font-size: 1.3rem;
+            max-width: 700px;
+            margin: 0 auto;
+            opacity: 0.9;
+        }
+        .section {
+            padding: 80px 40px;
+            max-width: 1100px;
+            margin: auto;
+        }
+        .section h2 {
+            font-size: 2rem;
+            margin-bottom: 20px;
+        }
+        .grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+            gap: 30px;
+        }
+        .card {
+            background: white;
+            padding: 30px;
+            border-radius: 12px;
+            box-shadow: 0 4px 12px rgba(0,0,0,0.05);
+            transition: transform 0.2s;
+        }
+        .card:hover {
+            transform: translateY(-5px);
+        }
+        footer {
+            background: #111827;
+            color: #d1d5db;
+            padding: 40px;
+            text-align: center;
+            margin-top: 60px;
+        }
+        footer a {
+            color: #9ca3af;
+            text-decoration: none;
+            margin: 0 10px;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <div style="font-size: 1.4rem; font-weight: 700;">CloudSchool</div>
+    <nav>
+        <a href="#mission">Mission</a>
+        <a href="#learning">Learning Paths</a>
+        <a href="#docs">Docs</a>
+        <a href="#community">Community</a>
+    </nav>
+</header>
+
+<section class="hero">
+    <h1>Cloud, AI, Cybersecurity — Made Understandable</h1>
+    <p>CloudSchool is an educational community offering free and premium training in cloud computing, AI/ML, cybersecurity, DevOps, and modern infrastructure — built for Greece and the world.</p>
+</section>
+
+<section id="mission" class="section">
+    <h2>Our Mission</h2>
+    <p>We combine formal technical education (the <strong>how</strong>) with technical literacy (the <strong>why</strong>). We help close the digital skills gap in Greece by offering structured learning paths, hands-on labs, community documentation, and valid career guidance — always keeping the human at the center of the AI era.</p>
+</section>
+
+<section id="learning" class="section">
+    <h2>Learning Paths</h2>
+    <div class="grid">
+        <div class="card">
+            <h3>Cloud & Infrastructure</h3>
+            <p>Hybrid enterprise design, Azure landing zones, networking, VPN, Zero Trust, hub-and-spoke, WAN optimization.</p>
+        </div>
+        <div class="card">
+            <h3>Cybersecurity</h3>
+            <p>XDR, SIEM, SOAR, SOC operations, SecOps workflows, hardening, incident response, and secure design.</p>
+        </div>
+        <div class="card">
+            <h3>AI & Machine Learning</h3>
+            <p>AI literacy, ML fundamentals, applied AI, multi-agent systems, and AI-native infrastructure.</p>
+        </div>
+        <div class="card">
+            <h3>DevOps & SRE</h3>
+            <p>CI/CD, automation, observability, HA/BCDR, reliability engineering, and platform operations.</p>
+        </div>
+    </div>
+</section>
+
+<section id="docs" class="section">
+    <h2>Documentation & Knowledge Base</h2>
+    <div class="grid">
+        <div class="card">
+            <h3>Training Modules</h3>
+            <p>Structured content following the CloudSchool hierarchy: Learning Paths → Modules → Units.</p>
+        </div>
+        <div class="card">
+            <h3>Hands-on Labs</h3>
+            <p>Safe, reproducible labs with rollback logic for cloud, AI, cybersecurity, and DevOps.</p>
+        </div>
+        <div class="card">
+            <h3>Troubleshooting Guides</h3>
+            <p>Decision trees, frameworks, and runbooks for Azure, M365, networking, and security.</p>
+        </div>
+        <div class="card">
+            <h3>Community Docs</h3>
+            <p>Open knowledge base built collaboratively with learners and professionals.</p>
+        </div>
+    </div>
+</section>
+
+<section id="community" class="section">
+    <h2>Join the Community</h2>
+    <p>CloudSchool is more than content — it’s a movement to empower learners, professionals, and teams with clarity, reproducibility, and operational excellence.</p>
+</section>
+
+<footer>
+    <p>© CloudSchool. All rights reserved.</p>
+    <p>
+        <a href="https://cloudschool.ai">Main Site</a> |
+        <a href="#">Docs</a> |
+        <a href="#">Community</a>
+    </p>
+</footer>
+
+</body>
+</html>
